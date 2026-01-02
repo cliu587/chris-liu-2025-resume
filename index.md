@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Chris Liu - Senior Staff Software Engineer and Mathematician
 ---
 # Chris Liu
 Senior Staff Software Engineer and Mathematician.
@@ -19,9 +19,9 @@ Two of my contributions are faster algorithms to compute these invariants and pr
 
 ## Previously
 
-Senior Staff Software Engineer at Coursera. 
+Senior Staff Software Engineer at Coursera
 
-Responsibilities included shepherding Coursera's Scala to Java transition, advising on product architecture, and driving a high reliability culture in a ~200 people engineering org.
+Responsibilities included shepherding Coursera's Scala to Java transition, implementing application architecture for developer productivity, and driving a high reliability culture in a ~200 people engineering org.
 
 
 ## Experience
@@ -29,7 +29,7 @@ Responsibilities included shepherding Coursera's Scala to Java transition, advis
 ### Colorado State University (2021-Present)
 
 Doing my Math PhD with Professor James B. Wilson on studying the algebraic invariants of tensors. 
-During my PhD, I also explored formalized computation in Lean, Computational Group Theory, and Type Theory. My dissertation work is explained in my [preliminary exam presentation](https://slides.com/chrisliu/prelim/).
+During my PhD, I also explored formalized computation in Lean, Computational Group Theory, and Type Theory. My dissertation work is explained in my preliminary exam presentation available at slides.com/chrisliu/prelim.
 
 
 ### Coursera (2015-2021)
@@ -39,10 +39,10 @@ During my PhD, I also explored formalized computation in Lean, Computational Gro
 __(2019-2021) Ending as the first internally promoted Senior Staff Software Engineer__ (I was in the Growth and Infrastructure teams.)
 
 - Served in Site Reliability Engineering. Advanced reliability culture through tools, frameworks, and education. 
-Results included sending weekly call-graph reports to the organization to understand API fanout. Introduced flame-graph profiling of services as standard practice. Benchmarked and evangelized threading vs async tradeoffs. Led to a shift away from asynchronous by default for handling all backend services.
+Results include sending weekly call-graph reports to the organization to understand API fanout. Introduced flame-graph profiling of services as standard practice. Benchmarked and evangelized threading vs async tradeoffs. Led to a shift away from asynchronous by default for handling all backend services.
+- Founding member of application architecture group. Defined the group's charter, roadmap, interfaces, and priorities. Decisions in the group were informed by organizational needs, industry trends, and existing tooling. An example of a decision we made was to have a monorepo of service definitions in Protobuf.
+- Implemented application architecture on top of Spring Framework and Coursera's existing infrastructure. This includes service discovery (Envoy), deployment tooling (AWS EC2/ECS), internal service gateway, and internal data schema technology. This allowed the new Java platform to be a first-class citizen within the Coursera technology stack.
 - Founding member and leader of technical architecture group. Guided and documented key technical decisions, including making Java the next main backend language at Coursera.
-- Founding member of application architecture group. Defined the group's charter, roadmap, interfaces, and priorities. Decisions in the group were informed by organizational needs, industry trends, and existing tooling.
-- Implemented application architecture on top of Spring Framework by integrating with Coursera's existing tooling. This includes service discovery (Envoy), deployment tooling (AWS EC2/ECS), internal service gateway, and internal data schema technology. This allowed the new Java platform to be a first-class citizen within the Coursera technology stack.
 
 <br/>
 __(2017-2019) Ending as a Staff Software Engineer__ (I was in the Growth engineering team)
